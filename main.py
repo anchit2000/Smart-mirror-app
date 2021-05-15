@@ -119,7 +119,7 @@ def taskss1():
 
 
 def worktravell():
-	url = 'https://maps.googleapis.com/maps/api/distancematrix/json?origins=Vancouver+BC|Seattle&destinations=San+Francisco|Victoria+BC&mode=bicycling&language=fr-FR&key=AIzaSyBhZy09wLTrHDuWkoKoYgw5Htmx0iFYbwA'
+	url = 'https://maps.googleapis.com/maps/api/distancematrix/json?origins=Vancouver+BC|Seattle&destinations=San+Francisco|Victoria+BC&mode=bicycling&language=fr-FR&key='+credentials.work_travel_key
 	r = requests.get(url)
 	x = r.json()
 	return x
