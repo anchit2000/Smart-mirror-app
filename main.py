@@ -18,7 +18,7 @@ from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from newsapi import NewsApiClient
 import streamlit.components.v1 as components
-from credentials import weather_key, news_api, task_list_key
+from credentials import weather_key, news_api, task_list_key, work_travel_key
 
 st.title("Smart Mirror")
 
